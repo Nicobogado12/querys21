@@ -1,0 +1,164 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(248, 112, 7);
+}
+
+
+
+h1{
+    text-align: center;
+    color: steelblue;
+    font-size: 3rem;
+}
+
+
+nav{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+   
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column ;
+    background-color: black;
+    padding: 10px;
+    
+}
+
+li{
+  list-style: none;
+}
+
+a{
+ text-decoration: none;
+ color: #fff;
+}
+
+
+
+
+
+
+
+/* @media (min-width: 320px) {
+    body {
+      background: blue;
+    }
+  } */
+
+
+
+
+
+  @media (min-width: 375px) {
+
+    body {
+      background: red;
+    }
+
+    h1{
+      text-align: left;
+    }
+
+    .box4{
+        display: none;
+    }
+
+  }
+
+
+
+
+
+  @media (min-width: 425px) {
+
+    body {
+      background: aqua;
+    }
+
+    h1{
+      text-align: right;
+    }
+
+    nav{
+      font-size: 1.4rem;
+    }
+
+    ul{
+        flex-direction: row;
+    }
+    .box4{
+        display: block;
+    }
+
+  }
+
+
+  @media (min-width: 768px) {
+    body {
+      background: aquamarine;
+    }
+
+
+
+  }
+
+
+
+
+
+@media (min-width: 500px) and (orientation: landscape){
+
+  }
+  
+
+
+  
+@media screen and (max-width: valor) {
+    /* Estilos que se aplicarán cuando el ancho de la pantalla sea menor o igual a 'valor' */
+  }
+  
+
+
+/* Estilos para pantallas con ancho menor o igual a 768 píxeles */
+@media screen and (max-width: 768px) {
+    /* Agrega aquí los estilos que deseas aplicar en pantallas con ancho menor o igual a 768 píxeles */
+  }
+
+
+/* Estilos para pantallas con ancho mayor o igual a 768 píxeles */
+
+
+@media screen and (min-width: 768px) {
+    /* Agrega aquí los estilos que deseas aplicar en pantallas con ancho mayor o igual a 768 píxeles */
+  }
+
+  /* Al igual que con las media queries con max-width, dentro de la media query con min-width también puedes agregar cualquier regla CSS que desees para que se apliquen solo en dispositivos o pantallas con un ancho mayor o igual al valor especificado. Esto te permite adaptar la presentación de tu sitio web a diferentes tamaños de pantalla y dispositivos más grandes.
+   */
+  
+  
+  
+
+
+  @media screen and (min-width: valor) {
+    /* Estilos que se aplicarán cuando el ancho de la pantalla sea mayor o igual a 'valor' */
+  }
+  
+
+@media screen and (min-width:700px){
+
+  }
+
+
+
+
